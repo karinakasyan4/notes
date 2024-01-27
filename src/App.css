@@ -1,0 +1,77 @@
+body {
+  background: url('food.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dcdef7;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.button-add {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #77cf40;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+}
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-delete {
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+  background: none;
+  color: red;
+  font-weight: bolder;
+}
+
+.whole-plan {
+  width: 70%;
+  height: 100vh;
+}
+
+.myInput {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 30px;
+}
+
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.selected {
+  background-color: #fad106;
+}
+
+.default {
+  background-color: #dcdef7;
+}
+
+p {
+  color: #dcdef7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.field {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
